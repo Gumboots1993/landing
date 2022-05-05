@@ -74,3 +74,103 @@ div {
   padding: 20px;
   border: 1px solid rgb(230,230,230);
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  .banner-container {
+    width: 700px;
+  }
+
+  .mini-container {
+    width: 700px;
+  }
+
+  .poppet {
+    width: 365px;
+    height: 184.5857px;
+    padding-top: 0px;
+}
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .card {
+    width: 180px;
+}
+
+  h3, h4 {
+    font-size: 25px;
+}
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    text-align: center;
+    display: block;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner-container {
+    width: 500px;
+    flex-direction: column;
+  }
+
+  .mini-container {
+    width: 500px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .banner-container {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .mini-container {
+    width: 300px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .poppet {
+    width: 300px;
+    height: 151.7143px;
+    padding-top: 0px;
+  }
+
+  h3, h4 {
+    line-height: 30px;
+  }
+}
