@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+/* Utilities */
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/minibanner.css');
+@import url('components/footer.css');
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 100px;
+  line-height: 50px;
+  font-weight: 600;
+  color: rgb(147, 74, 87);
+}
+
+h2 {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: 30px;
+  line-height: 0px;
+  display: block;
+}
+
+h3, h4 {
+  font-family: 'Gochi Hand', cursive;
+  color: rgb(199, 132, 144);
+  font-size: 30px;
+  line-height: 0px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+div {
+  display: block;
+}
+
+.p {
+    line-height: 10px;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
